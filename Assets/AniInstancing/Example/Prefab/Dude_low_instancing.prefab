@@ -623,8 +623,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f47bf4169ec5dd4cbf530cf6929eeab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabName: 
+  prototype: {fileID: 1498374009216960}
   playSpeed: 1
+  shadowCastingMode: 0
+  receiveShadow: 0
   applyRootMotion: 1
   bonePerVertex: 4
 --- !u!136 &136187900318313722

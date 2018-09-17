@@ -459,6 +459,7 @@ namespace AnimationInstancing
             for (int i = 0; i != animationTextureList.Count; ++i)
             {
                 AnimationTexture texture = animationTextureList[i] as AnimationTexture;
+                Debug.Log(texture.name);
                 if (texture.name == name)
                 {
                     return i;
